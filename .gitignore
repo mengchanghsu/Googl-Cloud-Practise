@@ -1,0 +1,3 @@
+# 忽略jupyter的檢查檔
+*-checkpoint.py
+.ipynb_checkpoints/
