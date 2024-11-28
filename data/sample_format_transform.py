@@ -4,7 +4,7 @@
 import pandas as pd
 from os.path import join
 
-DirPath = r'.\sample'
+DirPath = r'.\sample\Iris'
 filename = 'Iris.csv'
 
 # read csv
