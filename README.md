@@ -4,15 +4,23 @@
 ### 文件結構:
 	GCP/
 	├── app/				# 各項服務的code
-	│   ├── ...				# 各項服務的dir		
+	│   ├── CloudStorage/
+	│   ├── BigQuery/
+	│   ├── .../	
+	│   ├── TopicResearch/	# 主題研究
+	│   │   └──Option/		# 選擇權策略研究
+	│   ├── *test*			# 帶有 test 字串的檔案為測試用無特別意義	
+	│   │
+	│   ├── ...				# 各項服務的dir	
 	│   ├── config/
 	│   │   └── settings.py
 	│   └── modules/
 	│       ├── __init__.py
 	│       └── utils.py
 	├── data/
-	│   ├── sample/			# 範例資料夾
+	│   ├── sample/			# 範例資料資料夾
 	│   └── sample_format_transform.py	# 轉換範例資料格式的腳本
+	├── service_account/    # 服務帳戶私鑰
 	├── requirements.txt	# Python 依賴檔
 	├── .gitignore
 	└── README.md

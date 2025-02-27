@@ -9,3 +9,6 @@ data/sample/New_York_Stock_Exchange/
 
 # 忽略檔案格式
 *.pdf
+
+# 忽略機密資料
+service_account/
